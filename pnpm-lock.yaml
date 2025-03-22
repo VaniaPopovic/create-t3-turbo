@@ -70,11 +70,8 @@ importers:
   apps/expo:
     dependencies:
       '@better-auth/expo':
-        specifier: 1.2.3
-        version: 1.2.3(better-auth@1.2.3(typescript@5.8.2))
-      '@better-fetch/fetch':
-        specifier: ^1.1.17
-        version: 1.1.17
+        specifier: 1.2.5-beta.5
+        version: 1.2.5-beta.5(better-auth@1.2.5-beta.5(typescript@5.8.2))
       '@expo/metro-config':
         specifier: ^0.19.9
         version: 0.19.9
@@ -94,8 +91,8 @@ importers:
         specifier: 'catalog:'
         version: 11.0.0(@tanstack/react-query@5.69.0(react@19.0.0))(@trpc/client@11.0.0(@trpc/server@11.0.0(typescript@5.8.2))(typescript@5.8.2))(@trpc/server@11.0.0(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
       better-auth:
-        specifier: 1.2.3
-        version: 1.2.3(typescript@5.8.2)
+        specifier: 1.2.5-beta.5
+        version: 1.2.5-beta.5(typescript@5.8.2)
       expo:
         specifier: 53.0.0-canary-20250304-f08e984
         version: 53.0.0-canary-20250304-f08e984(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@expo/metro-runtime@4.0.2-canary-20250304-f08e984(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.12)(bufferutil@4.0.8)(react@19.0.0)))(bufferutil@4.0.8)(graphql@15.8.0)(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.12)(bufferutil@4.0.8)(react@19.0.0))(react@19.0.0)
@@ -334,14 +331,14 @@ importers:
         specifier: workspace:*
         version: link:../db
       '@better-auth/expo':
-        specifier: 1.2.3
-        version: 1.2.3(better-auth@1.2.3(typescript@5.8.2))
+        specifier: 1.2.5-beta.5
+        version: 1.2.5-beta.5(better-auth@1.2.5-beta.5(typescript@5.8.2))
       '@t3-oss/env-nextjs':
         specifier: ^0.12.0
         version: 0.12.0(typescript@5.8.2)(valibot@1.0.0-beta.15(typescript@5.8.2))(zod@3.24.2)
       better-auth:
-        specifier: 1.2.3
-        version: 1.2.3(typescript@5.8.2)
+        specifier: 1.2.5-beta.5
+        version: 1.2.5-beta.5(typescript@5.8.2)
       next:
         specifier: ^15.2.3
         version: 15.2.3(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -1354,13 +1351,13 @@ packages:
     resolution: {integrity: sha512-t8kDRGrKXyp6+tjUh7hw2RLyclsW4TRoRvRHtSyAX9Bb5ldlFh+90YAYY6awRXrlB4G5G2izNeGySpATlFzmOg==}
     engines: {node: '>=6.9.0'}
 
-  '@better-auth/expo@1.2.3':
-    resolution: {integrity: sha512-zhotvNpE9uDluj0IUedcz8VfkDNqLTViAAo5iKOZe6kspJjEU5Gjg0nyT8yWuyzJBQ+vXCd7Yya/gT4lTFMrfg==}
+  '@better-auth/expo@1.2.5-beta.5':
+    resolution: {integrity: sha512-nGozgduuysl9WAK8QBZa9irDkgXZH6g0ffAtTnzUkCLVqjBGTHcZVSSwrP9SlNJsi1B6ijwRJF1npleyj8ImNw==}
     peerDependencies:
-      better-auth: 1.2.3
+      better-auth: 1.2.5-beta.5
 
-  '@better-auth/utils@0.2.3':
-    resolution: {integrity: sha512-Ap1GaSmo6JYhJhxJOpUB0HobkKPTNzfta+bLV89HfpyCAHN7p8ntCrmNFHNAVD0F6v0mywFVEUg1FUhNCc81Rw==}
+  '@better-auth/utils@0.2.4':
+    resolution: {integrity: sha512-ayiX87Xd5sCHEplAdeMgwkA0FgnXsEZBgDn890XHHwSWNqqRZDYOq3uj2Ei2leTv1I2KbG5HHn60Ah1i2JWZjQ==}
 
   '@better-fetch/fetch@1.1.17':
     resolution: {integrity: sha512-MQonMalbmEshb+amuLtCkVjYliyyWrYXZkiMnHLgFjNEBsNBbZSY3+lYsFK1/VxePSupVkUW6xinqhqB3uHE1g==}
@@ -3440,8 +3437,8 @@ packages:
     resolution: {integrity: sha512-4Bcg1P8xhUuqcii/S0Z9wiHIrQVPMermM1any+MX5GeGD7faD3/msQUDGLol9wOcz4/jbg/WJnGqoJF6LiBdtg==}
     engines: {node: '>=10.0.0'}
 
-  better-auth@1.2.3:
-    resolution: {integrity: sha512-y97/ah2SOWaW81IRg36m7xMSMVl7ATaHie/nhQ0in/reVlEX/6juVPszNqq0gcTwQtFsB8oe15wQKgdf4yHP9Q==}
+  better-auth@1.2.5-beta.5:
+    resolution: {integrity: sha512-fPfBylr3btYhGTVOCXZ2dWOKgZbxfumRByti6TVy6t1kRz+56PecCtBP5SZ4bGbEDjRX71GSsjSD/8ZBxFKWcg==}
 
   better-call@1.0.5:
     resolution: {integrity: sha512-rAT73GWIJ8LbSP8Y3BdJnY1hwAiQPRRmUJ4R3YVhcVGS927l3eTXG5o5TD6Bv6je6ygjdx6iVq3/BU49eGUCHg==}
@@ -8229,14 +8226,16 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@better-auth/expo@1.2.3(better-auth@1.2.3(typescript@5.8.2))':
+  '@better-auth/expo@1.2.5-beta.5(better-auth@1.2.5-beta.5(typescript@5.8.2))':
     dependencies:
-      better-auth: 1.2.3(typescript@5.8.2)
+      '@better-fetch/fetch': 1.1.17
+      better-auth: 1.2.5-beta.5(typescript@5.8.2)
       better-call: 1.0.5
       zod: 3.24.2
 
-  '@better-auth/utils@0.2.3':
+  '@better-auth/utils@0.2.4':
     dependencies:
+      typescript: 5.8.2
       uncrypto: 0.1.3
 
   '@better-fetch/fetch@1.1.17': {}
@@ -10694,9 +10693,9 @@ snapshots:
 
   basic-ftp@5.0.5: {}
 
-  better-auth@1.2.3(typescript@5.8.2):
+  better-auth@1.2.5-beta.5(typescript@5.8.2):
     dependencies:
-      '@better-auth/utils': 0.2.3
+      '@better-auth/utils': 0.2.4
       '@better-fetch/fetch': 1.1.17
       '@noble/ciphers': 0.6.0
       '@noble/hashes': 1.7.1

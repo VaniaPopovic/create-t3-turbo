@@ -7,7 +7,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import type { RouterOutputs } from "~/utils/api";
 import { trpc } from "~/utils/api";
-import { authClient, signIn, signOut } from "~/utils/auth";
+import { authClient } from "~/utils/auth";
 
 function PostCard(props: {
   post: RouterOutputs["post"]["all"][number];
@@ -109,8 +109,8 @@ function MobileAuth() {
       <Button
         onPress={() =>
           session
-            ? signOut()
-            : signIn.social({
+            ? authClient.signOut()
+            : authClient.signIn.social({
                 provider: "discord",
                 callbackURL: "/",
               })

@@ -21,7 +21,7 @@ export const config = {
       redirectURI: "http://localhost:3000/api/auth/callback/discord",
     },
   },
-  trustedOrigins: ["exp://"],
+  trustedOrigins: ["expo://"],
 } satisfies BetterAuthOptions;
 
 export const auth = betterAuth(config);
